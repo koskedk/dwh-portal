@@ -15,7 +15,6 @@ const ReportingRatesOverview = () => {
     });
 
     const updateGlobalFilter = (selection) => {
-        console.log(selection);
         setGlobalFilter(selection);
     };
 
